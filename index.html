@@ -1,22 +1,87 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Hola Mundo con Bootstrap</title>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <title>Bienvendo ❤</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
   <style>
-    .custom-text {
-      text-align: center;
-      color: blue;
+    body {
+      background-color: #f8f9fa;
+      color: #343a40;
     }
+
+    .container {
+      margin-top: 50px;
+    }
+
+    h1 {
+      color: #007bff;
+      margin-bottom: 30px;
+    }
+
+    .cv-item {
+      margin-bottom: 30px;
+    }
+
+    .cv-item h4 {
+      color: #007bff;
+      margin-bottom: 10px;
+    }
+
+    .portfolio-item {
+      margin-bottom: 30px;
+    }
+
+    .portfolio-item h4 {
+      color: #007bff;
+      margin-bottom: 10px;
+    }
+    .transparent-bg {
+      background-color: rgba(2, 2, 2, 0.137);
+    }
+  
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1 class="custom-text mt-5">¡Hola mundo!</h1>
-    <a href="https://eduaval.github.io/pokedex/" target="_blank" rel="noopener noreferrer">pokedex</a>
+  <div class="container text-center w-50 border rounded transparent-bg ">
+    <h1>Mi CV</h1>
+
+    <div class="cv-item">
+      <h4>Información personal</h4>
+      <p>Nombre: Eduardo Valdez</p>
+      <p><i class="fa-solid fa-envelope"></i> eduardo-valdez1@hotmail.com</p>
+      <p><i class="fa-solid fa-phone"></i> +52 6692908639</p>
+      <p>Me considero una persona con ganas de
+        aprender además de
+        seguir creciendo profesionalmente,
+        actualmente no cuento con experiencia</p>
+    </div>
+
+    <div class="cv-item">
+      <h4>Experiencia laboral</h4>
+      <p>Desarrollo web y aplicaciones de escritorio</p>
+    </div>
+
+    <div class="cv-item">
+      <h4>Educación</h4>
+      <p>Universidad autónoma de Sinaloa <br>
+        Licenciatura en informática</p>
+    </div>
+
+    <div class="portfolio-item">
+      <h4>Portafolio</h4>
+      <p>Aquí puedes encontrar algunos de mis proyectos:</p>
+      <ul class="list-unstyled">
+        <li><a href="https://eduaval.github.io/lista-tareas/" target="_blank" rel="noopener noreferrer">Proyecto 1</a></li>
+        <li><a href="https://eduaval.github.io/carrito-compras/" target="_blank" rel="noopener noreferrer">Proyecto 2</a></li>
+        <li><a href="https://eduaval.github.io/calculadora/" target="_blank" rel="noopener noreferrer">Proyecto 3</a></li>
+        <li><a href="https://eduaval.github.io/pokedex/" target="_blank" rel="noopener noreferrer">Proyecto 4</a></li>
+        <li><a href="https://eduaval.github.io/juego-vida/" target="_blank" rel="noopener noreferrer">Proyecto 5</a></li>
+      </ul>
+    </div>
   </div>
 
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
